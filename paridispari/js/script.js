@@ -28,11 +28,13 @@ if (verdetto) {
   }else {
     alert("il numero è pari hai perso");
   }
-} else {
+} else if (verdetto == false) {
   var dispari = "dispari";
   if (dispari == pariDispari) {
     alert("il numero è dispari hai vinto");
   } else {
     alert("il numero è dispari hai perso");
   }
+} else {
+  alert("inserimetno dati incorretto")
 }
