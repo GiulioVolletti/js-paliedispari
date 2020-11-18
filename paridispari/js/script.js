@@ -21,6 +21,7 @@ function risultato(risulta) {
 }
 // Dichiariamo chi ha vinto.
 var verdetto = risultato(somma)
+console.log(verdetto);
 if (verdetto) {
   var pari = "pari";
   if (pari == pariDispari) {
